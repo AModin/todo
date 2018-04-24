@@ -1,0 +1,44 @@
+
+:global {
+  html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  },
+  body{
+    background: #f6f6f6;
+  },
+  div{
+    box-sizing: border-box;
+  },
+  #app {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@font-face {
+  font-family: 'Proxima-SemiboldIt';
+  src: url('/fonts/ProximaSoftW10-SemiboldIt.woff2') format('woff2'),
+      url('/fonts/Proxima-SemiboldIt.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('/fonts/ProximaSoftW10-Semibold.woff2') format('woff2'),
+      url('/fonts/ProximaSoftW10-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('/fonts/ProximaSoftW10-Regular.woff2') format('woff2'),
+      url('/fonts/ProximaSoftW10-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
